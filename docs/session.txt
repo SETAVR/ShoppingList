@@ -1,0 +1,112 @@
+********* Start testing of Checks *********
+Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 10
+PASS   : Checks::initTestCase()
+QDEBUG : Checks::initialModelAndView() [DELEGATE] Created PurchaseDelegate
+QDEBUG : Checks::initialModelAndView() [INIT] Data belongs to the model; the view displays it
+QWARN  : Checks::initialModelAndView() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::initialModelAndView() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::initialModelAndView() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::initialModelAndView() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::initialModelAndView() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::initialModelAndView() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::initialModelAndView() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::initialModelAndView() [DESTROY] MainWindow
+PASS   : Checks::initialModelAndView()
+QDEBUG : Checks::crudThroughModel() [DELEGATE] Created PurchaseDelegate
+QDEBUG : Checks::crudThroughModel() [INIT] Data belongs to the model; the view displays it
+QWARN  : Checks::crudThroughModel() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::crudThroughModel() [CRUD] addItem: "Сыр" rows: 4
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 3 text: "Сыр"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::crudThroughModel() [PAINT] row: 3 text: "Сыр"
+QDEBUG : Checks::crudThroughModel() [CRUD] addItem: empty input ignored
+QDEBUG : Checks::crudThroughModel() [CRUD] addItem: "Кофе" rows: 5
+QDEBUG : Checks::crudThroughModel() [CRUD] removeSelected, row: 1 remaining: 4
+QDEBUG : Checks::crudThroughModel() [CRUD] clearAll: model reset
+QDEBUG : Checks::crudThroughModel() [CRUD] clearAll: model reset
+QDEBUG : Checks::crudThroughModel() [DESTROY] MainWindow
+PASS   : Checks::crudThroughModel()
+QDEBUG : Checks::editByDoubleClickAndCommit() [DELEGATE] Created PurchaseDelegate
+QDEBUG : Checks::editByDoubleClickAndCommit() [INIT] Data belongs to the model; the view displays it
+QWARN  : Checks::editByDoubleClickAndCommit() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] createEditor, row: 0
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setEditorData: "Молоко"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setEditorData: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setModelData, saved: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] createEditor, row: 1
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setEditorData: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setEditorData: "Хлеб цельнозерновой"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setModelData, saved: "Хлеб цельнозерновой"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб цельнозерновой"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] createEditor, row: 2
+QDEBUG : Checks::editByDoubleClickAndCommit() [EDITOR] setEditorData: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб цельнозерновой"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 0 text: "Молоко 2 л"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 1 text: "Хлеб цельнозерновой"
+QDEBUG : Checks::editByDoubleClickAndCommit() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::editByDoubleClickAndCommit() [DESTROY] MainWindow
+PASS   : Checks::editByDoubleClickAndCommit()
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [DELEGATE] Created PurchaseDelegate
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [INIT] Data belongs to the model; the view displays it
+QWARN  : Checks::noSelectionCannotDeleteCurrentRow() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [CRUD] removeSelected: no selection
+QDEBUG : Checks::noSelectionCannotDeleteCurrentRow() [DESTROY] MainWindow
+PASS   : Checks::noSelectionCannotDeleteCurrentRow()
+QDEBUG : Checks::directModelUpdateRefreshesViewAndCount() [DELEGATE] Created PurchaseDelegate
+QDEBUG : Checks::directModelUpdateRefreshesViewAndCount() [INIT] Data belongs to the model; the view displays it
+QWARN  : Checks::directModelUpdateRefreshesViewAndCount() This plugin does not support propagateSizeHints()
+QDEBUG : Checks::directModelUpdateRefreshesViewAndCount() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::directModelUpdateRefreshesViewAndCount() [PAINT] row: 1 text: "Хлеб"
+QDEBUG : Checks::directModelUpdateRefreshesViewAndCount() [PAINT] row: 2 text: "Яблоки"
+QDEBUG : Checks::directModelUpdateRefreshesViewAndCount() [DESTROY] MainWindow
+PASS   : Checks::directModelUpdateRefreshesViewAndCount()
+QDEBUG : Checks::paintRestoresStateAndDrawsMarker() [DELEGATE] Created PurchaseDelegate
+QDEBUG : Checks::paintRestoresStateAndDrawsMarker() [INIT] Data belongs to the model; the view displays it
+QDEBUG : Checks::paintRestoresStateAndDrawsMarker() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::paintRestoresStateAndDrawsMarker() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::paintRestoresStateAndDrawsMarker() [PAINT] row: 0 text: "Молоко"
+QDEBUG : Checks::paintRestoresStateAndDrawsMarker() [DESTROY] MainWindow
+PASS   : Checks::paintRestoresStateAndDrawsMarker()
+PASS   : Checks::cleanupTestCase()
+Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 332ms
+********* Finished testing of Checks *********
